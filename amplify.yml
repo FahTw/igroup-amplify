@@ -2,9 +2,9 @@
 version: 1
 frontend:
     phases:
-        prebuild:
+        preBuild:
             commands:
-                - 'npm install'
+                - 'npm ci'
         build:
             commands:
                 - 'npm run build'
